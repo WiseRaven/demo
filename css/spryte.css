@@ -437,9 +437,13 @@
 }
 
 .sprite5 {
-    background-image: url(../images/spritesheet5.png);
+    background: url(../images/spritesheet5.png);
     background-repeat: no-repeat;
     display: block;
+}
+
+.strip.sprite5 {
+    background: #069752 url(../images/spritesheet5.png) -5px -348px no-repeat;
 }
 
 .sprite-select {

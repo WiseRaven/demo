@@ -77,7 +77,8 @@ MAIN CSS START
 ------------------------*/
 
 .container {
-    width: 1004px;
+    max-width: 1004px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
 }
@@ -204,7 +205,8 @@ MAIN CSS START
 .s1rgt {
     float: left;
     display: inline-block;
-    width: 690px;
+    max-width: 690px;
+    width: 100%;
 }
 
 .s1rgt {
@@ -1188,3 +1190,20 @@ ul.s7list li span {
 }
 
 /* modal style ends */
+
+.wistia_responsive_padding {
+    padding: 56.25% 0 0 0;
+    position: relative;
+}
+
+.wistia_responsive_wrapper {
+    height: 277px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 490px;
+}
+
+.wistia_responsive_wrapper img {
+    top: 60px;
+}
