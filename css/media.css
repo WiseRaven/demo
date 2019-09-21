@@ -440,9 +440,21 @@
     }
     .s3inner {
         padding-left: 0;
+        position: relative;
+        z-index: 1;
     }
     .section3 {
         background-position: 30% 0;
+        position: relative;
+    }
+    .section3:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255,0.5);
+        z-index: 0;
+        display: block;
+        position: absolute;
     }
     ul.s3list li {
         padding: 0;
@@ -489,5 +501,19 @@
     .topbartxt {
         font-size: 16px;
         line-height: 20px;
+    }
+    #footer, #disclaimer {
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #footer {
+        height: 100%;
+    }
+    #footer > * {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
